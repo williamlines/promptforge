@@ -5,13 +5,15 @@ import eslintConfigPrettier from 'eslint-config-prettier'
 import pluginJest from 'eslint-plugin-jest'
 
 export default [
-  { files: ['**/*.{js,mjs,cjs,ts}'] },
+  { ignores: ['dist/'] },
+  { files: ['**/*.ts'] },
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
   ...tseslint.configs.recommended,
   eslintConfigPrettier,
   {
-    files: ['**/*.test.{js,mjs,cjs,ts}'],
+    ignores: ['dist/'],
+    files: ['**/*.test.ts'],
     plugins: { jest: pluginJest },
     ...pluginJest.configs['flat/recommended'],
     rules: {
