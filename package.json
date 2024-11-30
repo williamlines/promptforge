@@ -1,6 +1,6 @@
 {
   "name": "@williamlines/promptforge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Constructor for ai prompts",
   "main": "index.js",
   "type": "module",
