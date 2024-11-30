@@ -1,0 +1,22 @@
+{
+  "name": "@williamlines/promptforge",
+  "version": "0.0.1",
+  "description": "Constructor for ai prompts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"TODO\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamlines/promptforge.git"
+  },
+  "author": "William Lines",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/williamlines/promptforge/issues"
+  },
+  "homepage": "https://github.com/williamlines/promptforge#readme",
+  "devDependencies": {
+    "prettier": "3.4.1"
+  }
+}
