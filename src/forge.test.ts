@@ -1,4 +1,4 @@
-import { forge } from './forge.js'
+import { forge } from './forge'
 
 describe('forge', () => {
   it('should be defined', () => {
