@@ -1,12 +1,12 @@
 {
   "name": "@williamlines/promptforge",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Constructor for ai prompts",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "jest",
-    "lint": "eslint",
+    "lint": "eslint .",
     "lint-staged": "npx lint-staged",
     "prepare": "husky"
   },
@@ -41,7 +41,7 @@
   },
   "lint-staged": {
     "**/*": [
-      "eslint --fix",
+      "eslint .",
       "prettier --write --ignore-unknown"
     ]
   }
