@@ -1,0 +1,7 @@
+**/*.test.*
+
+.github
+.prettierrc
+.nvmrc
+jest.config.ts
+babel.config.js
