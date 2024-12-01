@@ -1,1 +1,1 @@
-export * from './src'
+export { forge } from './src'
