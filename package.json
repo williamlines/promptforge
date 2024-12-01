@@ -1,8 +1,8 @@
 {
   "name": "@williamlines/promptforge",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Constructor for ai prompts",
-  "main": "index.js",
+  "main": "index.ts",
   "type": "module",
   "scripts": {
     "test": "jest",
